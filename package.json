@@ -1,5 +1,5 @@
 {
-  "name": "03Eazework",
+  "name": "03eazework",
   "type": "module",
   "devDependencies": {
     "@wdio/allure-reporter": "^8.37.0",
@@ -19,5 +19,13 @@
   "dependencies": {
     "chromedriver": "^125.0.1",
     "webdriverio": "^8.37.0"
-  }
+  },
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
 }

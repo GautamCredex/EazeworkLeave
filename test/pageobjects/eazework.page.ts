@@ -1,15 +1,10 @@
 import helper from "../helper/helpers.ts";
+import Page from "./page.ts";
 
-class eazeworkleavePage {
-  get url() {
-    return $("#txtCorpURL");
-  }
-  get username() {
-    return $("#txtLogin");
-  }
-  get password() {
-    return $("#Password");
-  }
+class eazeworkleavePage extends Page{
+  public get corpUrl() {return $("//input[@id='txtCorpURL']");}
+  get username() {return $("#txtLogin");}
+  get password() {return $("#Password");}
   get btnLogin() {
     return $("#btnLogin");
   }
@@ -53,10 +48,13 @@ class eazeworkleavePage {
   get draftSavedNotification() {
     return "//div[@data-notify='container' and contains(@class, 'alert-success') and contains(., 'Draft saved.')]";
   }
-
-  async logintoEazework(url: string, username: string, password: string) {
-    await this.url.waitForDisplayed();
-    await this.url.setValue(url);
+  async openLoginPage(urlpath:any) {
+    await browser.maximizeWindow();
+    await browser.url(urlpath);
+  }
+  public async logintoEazework(url: any, username: any, password: any) {
+    await this.corpUrl.waitForClickable({ timeout: 20000 });
+    await this.corpUrl.setValue(url);
 
     await this.username.waitForDisplayed();
     await this.username.setValue(username);
