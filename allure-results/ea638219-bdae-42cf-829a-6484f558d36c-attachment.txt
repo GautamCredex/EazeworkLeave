@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(@class, \"datepicker-days\")]//td[@class=\"day\" and text()=\"30\"]\"}\n  (Session info: chrome=125.0.6422.113)",
-  "stacktrace": "\tGetHandleVerifier [0x00007FF78D541F42+60322]\n\t(No symbol) [0x00007FF78D4BCEB9]\n\t(No symbol) [0x00007FF78D377EBA]\n\t(No symbol) [0x00007FF78D3C7676]\n\t(No symbol) [0x00007FF78D3C773C]\n\t(No symbol) [0x00007FF78D40E967]\n\t(No symbol) [0x00007FF78D3EC25F]\n\t(No symbol) [0x00007FF78D40BC80]\n\t(No symbol) [0x00007FF78D3EBFC3]\n\t(No symbol) [0x00007FF78D3B9617]\n\t(No symbol) [0x00007FF78D3BA211]\n\tGetHandleVerifier [0x00007FF78D85948D+3301613]\n\tGetHandleVerifier [0x00007FF78D8A36B3+3605267]\n\tGetHandleVerifier [0x00007FF78D899430+3563664]\n\tGetHandleVerifier [0x00007FF78D5F4316+790390]\n\t(No symbol) [0x00007FF78D4C74FF]\n\t(No symbol) [0x00007FF78D4C33F4]\n\t(No symbol) [0x00007FF78D4C3582]\n\t(No symbol) [0x00007FF78D4B2F8F]\n\tBaseThreadInitThunk [0x00007FF875927344+20]\n\tRtlUserThreadStart [0x00007FF8769C26B1+33]\n"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": ".dripicons-view-apps.noti-icon"
-}

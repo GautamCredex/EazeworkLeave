@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//li/a[@href=\"../ESS/leave_request.aspx?FromPage=MENU\"]"
-}

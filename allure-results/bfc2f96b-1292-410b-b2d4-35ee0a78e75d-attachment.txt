@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[contains(@class, 'datepicker-days')]//td[@class='day' and text()='28']"
-}

@@ -1,5 +1,9 @@
-node_modules/
-.env
-allure-report/
-allure-result/
 
+/node_modules
+
+# Allure
+/allure-report
+/allure-result
+
+#Enviouremental variable
+.env
