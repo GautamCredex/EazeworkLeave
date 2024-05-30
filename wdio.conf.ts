@@ -1,4 +1,5 @@
 import type { Options } from '@wdio/types'
+
 export const config: Options.Testrunner = {
  
     runner: 'local',
@@ -32,6 +33,7 @@ export const config: Options.Testrunner = {
         // }
     }],
     bail: 0,
+    baseUrl: process.env.BASE_URL,
   
     waitforTimeout: 10000,
 

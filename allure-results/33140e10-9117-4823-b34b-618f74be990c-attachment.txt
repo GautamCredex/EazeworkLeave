@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#spanEndDateRow .input-group-append .uil-calendar-alt"
+}
