@@ -12,8 +12,13 @@ export const config: Options.Testrunner = {
     },
     
     specs: [
-        './test/specs/eazework.spec.ts'
+        './test/specs/eazeworkReport.spec.ts'
     ],
+
+    // specs: [
+    //     './test/specs/**/eazeworkReport.spec.js'
+    // ],
+
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -21,9 +26,10 @@ export const config: Options.Testrunner = {
     maxInstances: 1,
     capabilities: [{
         browserName: 'chrome',
+        // 'goog:chromeOptions': {
+        //     args: ['--ignore-certificate-errors']
+        // }
         // "goog:chromeOptions": {
-    
-          
         //     //below chrome binary path is an example. Set it to your local path before local execution.
         //     binary: 'C:\\Users\\CT-D-004\\Downloads\\chrome-win64 (1)\\chrome-win64\\chrome.exe',
         //     args: [

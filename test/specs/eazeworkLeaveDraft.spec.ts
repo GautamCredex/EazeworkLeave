@@ -14,7 +14,7 @@ describe('Feature: Leave Request Save in Draft', () => {
     it('should save leave request in draft successfully', async () => {
         await eazeworkPage.logintoEazework(corpUrl,username,pwd);
         await eazeworkPage.verifyUserNameOnHomePage()
-        await eazeworkPage.fillleaveRequest();
+        await eazeworkPage.fillLeaveRequest();
         await eazeworkPage.saveDraftBtn();
    
     });
